@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Photo Fetcher</h1>
+    </div>
+
+    <div class="button-group">
+        <div class="switch">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        
+        <p>Make photos greyscale</p>
+        <button class="fetch-button" onclick="loadImages()">Fetch New Photos</button></span>
+    </div>
+
+  
+    <div class="photo-container">
+        <img src="photos/test.jpg" id="image1" alt="test">
+        <img src="photos/daniela-matthies-Xb4Y78131fA-unsplash.jpg" id="image2" alt="test"><br>
+        <img src="photos/kostiantyn-febrero-gvDtmIw7AHc-unsplash.jpg" id="image3" alt="test">
+        <img src="photos/neom-YeLs9lJDx9M-unsplash.jpg" id="image4" alt="test">
+    </div>
+<button class="addmore"  onclick="addMorePhotos()">More photos</button>
+    
+    <script defer src="indewx.js"></script>
+
+</body>
+</html>
