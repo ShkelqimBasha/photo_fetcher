@@ -1,0 +1,166 @@
+h1{
+    margin-left:560px ;
+
+}
+
+
+.button-group {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.class-button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-right: 700px;
+}
+
+.grayscale-text {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+.fetch-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 345px; 
+    background-color: #6b4ad5;
+    color: #fff6f6;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 22px;
+    margin-right: 240px; 
+    margin-left:232px ;
+}
+
+
+.switch input {
+    opacity: 0; 
+    width: 0;
+    height: 0;
+}
+
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.slider:before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: #E2E8F0;
+    transition: .4s all ease;
+}
+
+input:checked + .slider {
+    background-color: #6b4bd4;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #6b4bd4;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 20px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.checkmark {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white;
+}
+p {
+    margin-left: 10px;
+}
+.addmore{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 765px;
+    margin-left:660px;
+    background-color: #6b4ad5;
+    color: #fff6f6;
+}
+
+.photo-container {
+    position: relative;
+    display: inline-block;
+    width: 367px;
+    margin-left: 16px ;
+    margin-bottom: 16px ;
+}
+
+/* Style for the image inside the container */
+.photo-container img {
+    height: 367px;
+    width: 367px;
+    margin-left: 650px;
+   
+}
+
+/* Style for the text block overlay */
+.photo-container .text-block {
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style for the heading inside the text block */
+.photo-container .text-block h4 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+
